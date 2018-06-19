@@ -1,0 +1,113 @@
+@media (max-width: 820px)
+{
+    .form-horizontal{
+
+    }
+}
+@media (max-width: 767px)
+{
+    .postbox{
+        text-align: center;
+    }
+    .postbox p:nth-child(2) {
+        padding:0px 50px 0px 50px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+/*post wrap*/
+.postwrap {
+    overflow-wrap: break-word;
+}
+/*My CSS nonsense*/
+.jumbotron{
+    background-color: whitesmoke;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    from {background-color: whitesmoke;}
+    to {background-color: #39baff;}
+    from {color:black;}
+    to{color:white;}
+}
+.postbox img{
+    height:200px;
+    width:200px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.commentPersonName{
+    color: #caa3ff;
+
+}
+.commentDeleteButton{
+    float:right;
+}
+
+.shopitem{
+    width:220px;
+    margin-top:20px;
+    border:solid 1px;
+}
+.shopitem img{
+    padding:10px;
+    width:200px;
+    height:200px;
+}
+.itemprice{
+    color:red;
+    font-size:16px;
+}
+.pitemprice{
+    position:absolute;
+    top:350px;
+    text-align:left;
+}
+.shopitem .btn{
+    display: none;
+}
+.shopitem:hover .btn{
+    padding:10px 40px 10px 60px;
+    position:absolute; bottom:0;
+    background-color:red;
+    color:white;
+    display:block;
+}
+.shopitem:hover{
+    border:solid 2px;
+}
+.shopitem{
+    height:435px;
+}
+.shopitem p a{
+    text-align:center;
+}
+.itemicon{
+    color: #ff4e50;
+    position:absolute;
+    top:5px;
+    left:180px;
+}
+.itemicon:hover{
+    color: #a5030b;
+}
+.WarehouseForm{
+    border:solid 1px;
+}
+.thread-form{
+    display:block;
+}
+.thread-form input{
+    display:block;
+}
+.thread-form textarea{
+    display:block
+}
+.thread-form button{
+    display:block;
+}
