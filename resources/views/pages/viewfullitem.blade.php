@@ -23,7 +23,7 @@
         </ul>
     </div>
     <h2>Make a Comment:</h2>
-    <form action="/viewfullitem/{{$item->id}}/comment" method="POST" class="form-horizontal card-block" >
+    <form action="/comment/{{$item->id}}" method="POST" class="form-horizontal card-block" >
         {{csrf_field()}}
         <div class="form-group">
             <label for="textarea">Tekstas:</label>

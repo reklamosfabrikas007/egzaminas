@@ -21,12 +21,10 @@
 }
 /*My CSS nonsense*/
 .jumbotron{
-    background-color: whitesmoke;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
+  color:white;
+    background-image:url("../img/header.jpg");
+    background-size: cover;
+
 }
 @keyframes example {
     from {background-color: whitesmoke;}

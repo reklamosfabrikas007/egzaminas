@@ -81,3 +81,4 @@ Route::post('/makethread', 'ThreadpostController@makethread');
 
 //----------------------------
 Route::post('/viewfullitem/{itemCom}/comment','ItemCommentsController@createcomment');
+Route::post('/comment/{item}','ItemCommentsController@createcomment');
